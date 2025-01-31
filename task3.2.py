@@ -1,11 +1,11 @@
+def comp_average(number_list):
+    return sum(number_list) / len(number_list)
+
 lst = []
 suma = 0
 
 for i in range(5):
-    num = input("Provide a number: ")
-    lst = lst + list(num)
-    suma += int(num)
+    lst.append(int(input("Provide a number: ")))
     print(lst)
-    print(suma)
 
-print("Average value is " + str(suma / len(lst)))
+print("Average value is " + str(comp_average(lst)))

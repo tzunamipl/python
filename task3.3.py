@@ -1,12 +1,17 @@
+def comp_average(number_list):
+    return sum(number_list) / len(number_list)
+
 lst = []
 suma = 0
-num = 6
 
-while num != "0":
-    num = input("Provide a number: ")
-    lst = lst + list(num)
-    suma += int(num)
-    print(lst)
-    print(suma)
+keep_asking = True
 
-print("Average value is " + str(suma / len(lst)))
+while keep_asking == True:
+    user_input = input("Provide a number: ")
+    if user_input != "0":
+        lst.append(int(user_input))
+    else:
+        keep_asking = False
+
+print(lst)
+print("Average value is " + str(comp_average(lst)))
