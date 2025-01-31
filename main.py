@@ -19,3 +19,4 @@ say_hello("Dddduupaaa", 56)
 say_hello("Dudu", 3)
 
 print_double(5)
+print(result)
