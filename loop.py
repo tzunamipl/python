@@ -1,8 +1,15 @@
-for i in range(10):
+for i in range(3):
     print("Hello " + str(i + 1))
 
 i = 0
+text = "l"
 
-while i < 10:
-    print("Hallo " + str(i + 1))
+while i < 8:
+    print("Ha" + text + "o ")
     i += 1
+    text += "l"
+
+list_object = ["one","car","house"]
+
+for i in list_object:
+    print(i)
