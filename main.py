@@ -3,8 +3,8 @@
 
 #print("Hello " + user_name + ", you are " + user_age)
 
-from module import say_hello
-from module import double_number
+from classes.module import say_hello
+from classes.module import double_number
 
 def print_double(number):
     print("Double of " + str(number) + " is " + str(double_number(number)))

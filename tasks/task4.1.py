@@ -1,4 +1,4 @@
-from module import list_average
+from classes.module import list_average
 
 number_list = []
 

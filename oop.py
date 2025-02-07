@@ -1,5 +1,5 @@
-from robot import Robot
-from robot import RoboticArm
+from classes.robot import Robot
+from classes.robot import RoboticArm
 
 print("test")
 my_robot = Robot("R2D2", 1)
