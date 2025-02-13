@@ -4,10 +4,12 @@ c = input("Provide third number: ")
 
 if a > b:
     if a > c:
-        print(a)
+        x = a
     else:
-        print(c)
+        x = c
 elif c > b:
-    print(c)
+    x = c
 else:
-    print(b)
+    x = b
+
+print("Biggest number is", x)
