@@ -15,3 +15,9 @@ print(id(a))
 print(id(b))
 b = 3.15
 print(id(b))
+print("I like {} and {}".format("apples", "oranges"))
+print("I like {1} and {0}".format("apples", "oranges"))
+print("I like {second} and {second}".format(first="apples", second="oranges"))
+
+x = 4377745.239536
+print("The value of x is %4.2f" % x)
