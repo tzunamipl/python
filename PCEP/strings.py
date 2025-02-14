@@ -21,3 +21,12 @@ s1 = b + " "+ a
 print(s1)
 s2 = a * 2
 print(s2)
+
+print("I love \"Python\"")
+
+str = """I
+love
+Python programming!
+"""
+
+print(str)
