@@ -3,8 +3,10 @@ d1 = dict({1:"Python",2:"Java",3:"C+",4:"Groovy",99:"Kobol",5:"Java Script",6:"R
 print(1 in d1, 99 in d1, 22 in d1)
 print(99 not in d1, 23 not in d1)
 
+print("for i in d1")
 for i in d1:
     print(i, end=",")
+print("\nfor i,j in d1.items()")
 for i,j in d1.items():
     print(i, j, end=",")
 

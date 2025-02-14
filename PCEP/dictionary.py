@@ -21,13 +21,13 @@ print(d1)
 # Clearing dictionary
 
 d1.pop(2)
-print(d1)
+print("pop",d1)
 
 d1.popitem()
-print(d1)
+print("popitem",d1)
 
 del d1[5]
-print(d1)
+print("del item",d1)
 
 d1.clear()
-print(d1)
+print("clear",d1)
