@@ -28,9 +28,11 @@ class Counter:
 
     def __iter__(self):
         return self
+        print("Returning self")
 
     def __next__(self):
         self.current += 1
+        print("Iterating")
         if self.current < self.end:
             return self.current
         else:
