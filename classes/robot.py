@@ -31,7 +31,7 @@ class Robot:
         time.sleep(0.25)
         print("Done!")
 
-    def print_info(self):
+    def print_infos(self):
         self.init_hardware()
         self.say_hi()
         print("Version number: " + str(self.version_number))
