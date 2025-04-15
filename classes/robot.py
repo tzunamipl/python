@@ -13,7 +13,7 @@ class Robot:
         self.version_number = version_number
         self.internal_temperature = 39.0
 
-    def say_hi(self):
+    def say_hello(self):
         print("Hello, my name is " + self.name + ", ready to help!")
 
     def init_hardware(self):
