@@ -4,5 +4,5 @@ with open("file.txt", "r") as f:
         print(line.rstrip("\n"))
 
 with open("new_file.txt", "a+") as f:
-    f.write("Hello world!")
+    f.write("Hello worlddddddddd!")
     f.write("\nTest 123")
